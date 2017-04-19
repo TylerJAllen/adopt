@@ -1,4 +1,18 @@
+.turtle img{
+  height: 200px;
+  /*float: left;*/
+  padding-right: 40px;
+}
 .turtle {
-  width: 300px;
   float: left;
+  width: 100%;
+}
+
+.rat img{
+  height: 200px;
+  padding-right: 40px;
+}
+
+.rat {
+  text-align: center;
 }
