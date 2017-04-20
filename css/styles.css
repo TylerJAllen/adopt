@@ -1,51 +1,84 @@
 
 body {
   background-image: url("http://arcadenw.org/images/uploads/content-media/29-1_sewers-2.jpg");
-  background-size: 2500px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
-  color: white;
   text-align: center;
   font-size: 150px;
+  color: #159C00;
+  text-shadow: 5px 5px 2px #FEDB00;
+}
+
+h2.header {
+  text-align: center;
+  font-size: 75px;
+  color: #159C00;
+  text-shadow: 5px 5px 2px #FEDB00;
 }
 
 .turtleblock {
-  width: 3000px;
-  padding-left: 40px;
-  padding-right: 40px;
+  float: left;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  /*padding-left: 40px;
+  padding-right: 40px;*/
 }
 
-.turtle img{
-  height: 200px;
-  /*float: left;*/
-  padding-right: 40px;
-}
 .turtle {
-  float: left;
-  width: 400px;
+  display: inline-block;
+  text-align: center;
+  white-space: normal;
+  width: 300px;
   margin: 12px;
   border: 5px solid #FEDB00;
   padding: 4px;
   background-color: #159C00;
 }
 
+.turtle img{
+  height: 150px;
+  object-position: center;
+}
+
+.turtle h1{
+  color: #FEDB00;
+}
+
+.turtle h2{
+  color: #FEDB00;
+}
+
 .ratblock {
-  display: block;
-  width: 900px;
-  padding-left: 230px;
-  /*padding-right: 200px;*/
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.rat {
+  display: inline-block;
+  text-align: center;
+  white-space: normal;
+  width: 300px;
+  margin: 12px;
+  border: 5px solid #FEDB00;
+  padding: 4px;
+  background-color: #159C00;
 }
 
 .rat img{
   height: 200px;
-  padding-right: 40px;
+  object-position: center;
 }
 
-.rat {
-  float: right;
-  width: 400px;
-  border: 5px solid #FEDB00;
-  background-color: #159C00;
+.rat h1{
+  color: #FEDB00;
+}
+
+.rat h2{
+  color: #FEDB00;
 }
