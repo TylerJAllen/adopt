@@ -82,3 +82,15 @@ h2.header {
 .rat h2{
   color: #FEDB00;
 }
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .turtle {
+      display: list-item;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .turtle {
+      display: list-item;
+    }
+  }
